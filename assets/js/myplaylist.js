@@ -9,22 +9,22 @@ jQuery(document).ready(function($) {
     }, [{
         title: 'Ruby',
         artist: 'Written By: Jay',
-        mp3: 'media/audio/joy.wav',
+        mp3: 'media/audio/joy.mp3',
         poster: "media/audio/01.jpg",
       }, {
         title: 'Ruby',
         artist: 'Written By: Jay',
-        mp3: 'media/audio/joy.wav',
+        mp3: 'media/audio/joy.mp3',
         poster: "media/audio/01.jpg",
       }, {
         title: 'Ruby',
         artist: 'Written By: Jay',
-        mp3: 'media/audio/joy.wav',
+        mp3: 'media/audio/joy.mp3',
         poster: "media/audio/01.jpg",
       }, {
         title: 'Ruby',
         artist: 'Written By: Jay',
-        mp3: 'media/audio/joy.wav',
+        mp3: 'media/audio/joy.mp3',
         poster: "media/audio/01.jpg",
       }
     ], {
