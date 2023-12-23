@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+	<!-- Meta Data -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RUBY: A song for Joy</title>
+
+	<!-- Fav Icon -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="media/ruby1.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="media/ruby1.png">
+	<meta name="theme-color" content="#e43a90">
+
+	<!-- Dependency Styles -->
+	<link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/intro/css/stylesheet.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/swiper/swiper.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/font-awesome/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/wow/css/animate.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/magnific-popup/magnific-popup.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/jquery-ui/css/jquery-ui.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/slick-carousel/css/slick.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/colornip/css/colornip.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/css-loader/css/css-loader.css" type="text/css">
+
+	<!-- Site Stylesheet -->
+	<link rel="stylesheet" href="assets/css/woocommerce.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/app.css" type="text/css">
+
+
+
+
+
+</head>
+
+<body id="home-version-1" class="home-version-1" data-style="default" style="height: 100%;">
+
+	<div class="loader loader-bar-ping-pong is-active">TO MS JOY</div>
+	<div id="site">
+
+
+
+	
+
+
+
+
+		<!--============================-->
+		<!--=        	Banner         =-->
+		<!--============================-->
+		<section class="banner-five" data-bg-image="media/bkg.png" 
+		style="
+		background-color: #fff3d9;
+		height: 80vh; width:100%; background-size:cover;
+		background-position: bottom;
+		">
+			<div class="tim-container">
+				<div id="para" class="paralax">
+					<div id="paralax-1" class="scene">
+						<div data-depth="-0.50"><img src="media/ruby1.png" alt=""
+						 style="
+							height:50vh;
+							width: 100%;
+							object-fit: contain;
+							margin-top:10vh !important;
+							"></div>
+					</div>
+				</div>
+				<div class="baneer-five-content">
+					<div class="content sp-container">
+						<div class="sp-content">
+							<div class="sp-globe"></div>
+							<h2 class="frame-1" style="margin-top: 150px; font-family: 'Cormorant', sans-serif;color:#705836;">RUBY </h2>
+							<h2 class="frame-2" style="margin-top: 150px; font-family: 'Cormorant', sans-serif;">JOY</h2>
+							<h2 class="frame-3" style="margin-top: 150px; font-family: 'Cormorant', sans-serif;">RUBY </h2>
+							<h2 class="frame-4" style="margin-top: 150px; font-family: 'Cormorant', sans-serif;">JOY</h2>
+
+
+						</div>
+						<!-- <h3>DYNNEX HALL - March 17, 2018</h3>
+						<a class="tim-slide-btn" href="#">TICKETS</a> -->
+					</div>
+				</div>
+				<!-- /.tim-container -->
+			</div>
+			<!-- /.tim-container -->
+
+			<!-- <div class="smoke-wrqpper">
+				<canvas id="canvas"></canvas>
+			</div> -->
+
+		</section>
+		<!-- /#page-header -->
+
+
+		<section class="header_player style-fullwidth" style="background: #705836; ">
+
+			<!-- Audio Player -->
+			<div class="player-container-fullwidth" style="background:#fff3d9; border-radius:20px;">
+
+				<!-- /.current-tracks -->
+				<div id="header_player" class="jp-audio" role="application" aria-label="media player">
+					<div class="jp-type-playlist clearfix">
+						<div class="jp-gui jp-interface">
+							<div class="jp-controls" style="border-radius:20px;">
+								<button class="jp-play" tabindex="0"><i class="fa fa-play"></i></button>
+							</div>
+							<!-- Display the track inside player -->
+
+							<div class="current-tracks">
+								<div id="main_player" class="jp-jplayer">
+
+								</div>
+								<div id="nowPlaying">
+									<h3 class="track-name" style="color:#252525;"></h3>
+									<span class="artist-name"></span>
+								</div>
+								<!-- #nowPlaying -->
+							</div>
+							<!-- /.current-tracks -->
+
+							<div class="jp-progress">
+								<div class="jp-seek-bar">
+									<div class="jp-play-bar" style="background:#ab8654;"></div>
+								</div>
+							</div>
+
+							<div class="jp-duration" role="timer" aria-label="duration"></div>
+
+							<div class="vel-wrap">
+								<button class="jp-mute" tabindex="0"><i class="fa fa-volume-up" style="color:#252525;"></i></button>
+
+								<div class="jp-volume-bar" style="background:#252525;">
+									<div class="jp-volume-bar-value" style="background:#ab8654;"></div>
+								</div>
+
+							</div>
+							<!-- /.vel-wrap -->
+
+					
+							<!-- Playlist -->
+							<div class="jp-playlist">
+								<ul>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+		</section>
+
+<style>
+	.section-songTitle h2{
+		font-family: 'Cormorant', sans-serif;
+		 color:#fff3d9;
+		 font-size:  4rem;
+
+	}
+
+	.section-songTitle .song-written {
+		font-family: 'Cormorant', sans-serif;
+		 color:#fff3d9;
+		 font-size:  2rem;
+
+	}
+
+	.section-lyrics{
+		display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+	}
+
+	#illustration-image {
+		transition: .5s ease;
+	}
+
+	.lyric-container{
+		width: 90%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+
+	}
+
+	.lyric-container.row-reverse{
+
+		flex-direction:row-reverse;
+	
+
+	}
+
+	.lyric{
+		font-size: 1.5rem;
+	}
+
+	.lyric span{
+		font-size: 2rem;
+		font-weight: bold;
+	}
+
+	.illustration-image img {
+		width:500px;
+
+	}
+
+</style>
+
+		<section id="feature-album" style="background: #705836;  font-family: 'Cormorant', sans-serif; color:#fff3d9;">
+			<div class="container">
+				<div class="section-songTitle text-center" style="background: #705836;  font-family: 'Cormorant', sans-serif; color:#fff3d9;">
+					<h2 class="song-title">Ruby</h2>
+					<h2 class="song-written">- Joylyn -</h2>
+			
+				
+				</div>
+
+				<div class="section-lyrics">
+
+					<div class="lyric-container">
+						<div class="lyric">
+							<p>It's been <span>AGES</span> now that I felt</p>
+							<p>this way again. It all started because</p>
+							<p>You <span>REACTED </span>my day</p>
+						
+						</div> 
+						<div class="illustration-image"  data-hover-only="true"   id="scene1">
+							<img data-depth="0.5" src="media/reatheart.png" alt="" style="width:800px; filter:brightness(4);">
+						</div>
+					</div>
+
+					<div class="lyric-container row-reverse" >
+						<div class="lyric">
+							<p>I've never been felt different</p>
+							<p>of how I behave, like the <span>CLOUDS </span></p>
+							<p>in the sky dancing on windy day</p>
+						
+						</div> 
+						<div class="illustration-image" data-hover-only="true"  id="scene2" >
+							<img data-depth="0.5" src="media/clouds.png" alt="" style="width:500px; filter:brightness(4);">
+						</div>
+					</div>
+
+					<div class="lyric-container" >
+						<div class="lyric">
+							<p>And she walks in <span>BEAUTY</span></p>
+							<p>shining like a <span>RUBY </span></p>
+							<p>her <span>NAME </span>symbolizes</p>
+							<p>what my heart Realizes</p>
+						
+						</div> 
+						<div class="illustration-image"   data-hover-only="true"  id="scene3">
+							<img data-depth="0.5" src="media/itJoy.png" alt="" style="width:800px; filter:brightness(4);">
+						</div>
+					</div>
+
+					<div class="lyric-container" style="flex-direction:row-reverse;">
+						<div class="lyric">
+							<p>I just can't believe it </p>
+							<p>that it's easy to admit it</p>
+							<p>I'm <span>FALLING </span> for you</p>
+							<p>I hope you let me to</p>
+						
+						</div> 
+						<div class="illustration-image"   data-hover-only="true"  id="scene4">
+							<img data-depth="0.5" src="media/ruby2.png" alt="" style="width:800px; filter:brightness(4);">
+						</div>
+					</div>
+
+					<div class="lyric-container" style="flex-direction:column; margin-top: 50px;">
+						<div class="lyric">
+							<p>Filled my self with <span>DAYDREAMS</span> with you in my arms</p>
+					
+							<p>singing songs that I wrote for you under <span>BEAUTIFUL </span> sky</p>
+						
+						</div> 
+						<div class="illustration-image"   data-hover-only="true"  id="scene5">
+							<img data-depth="0.5" src="media/me_and_you.png" alt="" style="width:800px; filter:brightness(4);">
+						</div>
+					</div>
+
+					<div class="lyric-container"  style="flex-direction:column; margin-top: 50px;">
+						<div class="lyric">
+							<p>We just know each other not so long ago</p>
+							<p>I know your'e <span>AMAZING </span>  and <span>BEAUTIFUL</span> too.</p>
+						
+						</div> 
+						<div class="illustration-image"   data-hover-only="true"  id="scene6">
+							<img data-depth="0.5" src="media/beautyface.png" alt="" style="width:800px; filter:brightness(4);">
+						</div>
+					</div>
+
+
+					<div class="lyric-container"  style="flex-direction:column; margin-top: 50px;">
+						<div class="lyric">
+							<p>In the silent of the night your <span>VOICE</span> echo's clear</p>
+							<p>I love how you sent it, <span>DRAWING </span> you near</p>
+						
+						</div> 
+						<div class="illustration-image"   data-hover-only="true"  id="scene7" style="margin-top: -184px;">
+							<img data-depth="0.5" src="media/voice.png" alt="" style="width:800px; filter:brightness(4);">
+						</div>
+
+					</div>
+
+					<div class="lyric-container"  style="margin-top: -350px;">
+						<div class="lyric">
+
+							<p>And she walks in <span>BEAUTY</span></p><p> shining like a <span>RUBY </span></p>
+							<p>her <span>NAME </span>symbolizes what my heart Realizes</p>
+						
+						</div> 
+						<div class="illustration-image"   data-hover-only="true"  id="scene8">
+							<img data-depth="0.5" src="media/joy.png" alt="" style="width:400px; filter:brightness(1);">
+						</div>
+					</div>
+
+					<div class="lyric-container" style="flex-direction:row-reverse;">
+						<div class="lyric">
+							<p>I just can't believe it that it's easy to admit it</p>
+							<p>I'm <span>FALLING </span> for you I hope you let me to</p>
+						
+						</div> 
+						<div class="illustration-image"   data-hover-only="true"  id="scene9">
+							<img data-depth="0.5" src="media/beautyruby.png" alt="" style="width:600px; filter:brightness(4);">
+						</div>
+					</div>
+
+
+
+					<div class="lyric-container"  style="flex-direction:column; margin-top: 50px;">
+						<div class="lyric">
+							<p>So here's my <span>LOVE LETTER</span>
+								Entrusted to the weather
+								Will ride across the waves
+								And float through the clouds
+								</p>
+						
+						
+						</div> 
+						<div class="illustration-image"   data-hover-only="true"  id="scene10">
+							<img data-depth="0.5" src="media/letter.png" alt="" style="width:800px; filter:brightness(4);">
+						</div>
+					</div>
+
+
+					<div class="lyric-container"  style="flex-direction:column; margin-top: 50px;">
+						<div class="lyric">
+							<p>Yeah, when it's delivered
+								Do what you want with it
+								You can send it back
+								Or keep it around</p>
+							
+						
+						</div> 
+						<div class="illustration-image"   data-hover-only="true"  id="scene11" >
+							<img data-depth="0.5" src="media/butterfly.png" alt="" style="width:800px; filter:brightness(4);">
+						</div>
+
+					</div>
+
+				</div>
+
+
+			</div>
+	
+		</section>
+
+			<section id="feature-album" style="background: #705836;  font-family: 'Cormorant', sans-serif; color:#fff3d9;">
+			<div class="container">
+				<div class="section-songTitle text-center" style="background: #705836;  font-family: 'Cormorant', sans-serif; color:#fff3d9;">
+
+					<h2 class="song-title">This is dedicated to Ms. Joylyn Jane</h2>
+
+					<p></p>	
+					<p style="font-size: 1.2rem; width: 60vw; margin: auto; margin-bottom: 30px;">Hi. HAHAHAHA nahuman rajud ang song and everything. No pressure,  I just wanted to express my thoughts ug uban pa.. I know we are not sharing the same feelings, and might find this thing corny and cringe but I hope you enjoyed the song.  dugay dugay jd sya nahuman ug produce tas ang pag code, pero doesn't matter ang importante na apas ra sa christmas. Just think of this as a christmas gift. Merry Christmas!!</p>	
+
+					<h2 class="song-written">From yours truly, Jay.</h2>
+
+			
+					
+				</div>
+			</section>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="backtotop">
+			<i class="fa fa-angle-up backtotop_btn"></i>
+		</div>
+
+
+	</div>
+	<!-- /#site -->
+	<!-- Dependency Scripts -->
+
+	
+
+	<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="dependencies/jquery/jquery.min.js"></script>
+	<script src="dependencies/jquery-ui/jquery-ui.min.js"></script>
+	<script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+	<script src="dependencies/swiper/js/swiper.min.js"></script>
+	<script src="dependencies/swiperRunner/swiperRunner.min.js"></script>
+	<script src="dependencies/wow/js/wow.min.js"></script>
+	<script src="dependencies/jquery.countdown/jquery.countdown.min.js"></script>
+	<script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+	<script src="dependencies/jquery.spinner/js/jquery.spinner.js"></script>
+	<script src="dependencies/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="dependencies/masonry-layout/masonry.pkgd.min.js"></script>
+	<script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="dependencies/slick-carousel/js/slick.min.js"></script>
+	<script src="assets/js/headroom.js"></script>
+	<script src="assets/js/soundmanager2.js"></script>
+	<script src="assets/js/mp3-player-button.js"></script>
+	<script src="assets/js/smoke.js"></script>
+	<script src="dependencies/FitText.js/js/jquery.fittext.js"></script>
+	<script src="dependencies/gmap3/js/gmap3.min.js"></script>
+	<script src="../../../cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+	<script src='dependencies/tilt.js/js/tilt.jquery.js'></script>
+	<script src='assets/js/parallax.min.js'></script>
+
+
+
+	<!-- Player -->
+	<script src="dependencies/jPlayer/js/jquery.jplayer.min.js"></script>
+	<script src="dependencies/jPlayer/js/jplayer.playlist.min.js"></script>
+	<script src="assets/js/myplaylist.js"></script>
+
+
+	<!--Google map api -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsBrMPsyNtpwKXPPpG54XwJXnyobfMAIc"></script>
+
+	<!-- Site Scripts -->
+	<script src="assets/js/app.js"></script>
+
+	
+	<script>
+
+
+		document.addEventListener('DOMContentLoaded', function () {
+
+			var scene1 = document.getElementById('scene1');
+			var parallaxInstance = new Parallax(scene1);
+
+			var scene2 = document.getElementById('scene2');
+			var parallaxInstance = new Parallax(scene2);
+
+			var scene3 = document.getElementById('scene3');
+			var parallaxInstance = new Parallax(scene3);
+
+			var scene4 = document.getElementById('scene4');
+			var parallaxInstance = new Parallax(scene4);
+
+			var scene5 = document.getElementById('scene5');
+			var parallaxInstance = new Parallax(scene5);
+
+			var scene6 = document.getElementById('scene6');
+			var parallaxInstance = new Parallax(scene6);
+
+
+
+			var scene7 = document.getElementById('scene7');
+			var parallaxInstance = new Parallax(scene7);
+
+			var scene8 = document.getElementById('scene8');
+			var parallaxInstance = new Parallax(scene8);
+
+			var scene9 = document.getElementById('scene9');
+			var parallaxInstance = new Parallax(scene9);
+
+			var scene10 = document.getElementById('scene10');
+			var parallaxInstance = new Parallax(scene10);
+
+			var scene11 = document.getElementById('scene11');
+			var parallaxInstance = new Parallax(scene11);
+		});
+	  </script>
+	  
+
+
+</body>
+</html>
